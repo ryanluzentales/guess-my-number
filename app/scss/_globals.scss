@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Patrick Hand", cursive;
+}
+body {
+    background-color: lightsteelblue;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
+header {
+    padding-top: 40px;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 5rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    font-size: 2rem;
+}
+.between {
+    margin-left: 75%;
+    margin-top: -40px;
+    font-size: 2rem;
+}
+
+.guessme {
+    text-align: center;
+}
+
+.game-title {
+    text-align: center;
+}
+.try-again {
+    margin-left: 45px;
+}
+.check {
+    margin-top: 25px;
+}
+
+.guess {
+    display: block;
+    padding: 2.5rem;
+}
