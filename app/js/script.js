@@ -43,9 +43,11 @@ document.querySelector('.check').addEventListener('click', function () {
 });
 
 document.querySelector('.again').addEventListener('click', function () {
+    secretNumber = Math.floor(Math.random() * 20) + 1;
+    score = 20;
     displayMessage('Start guessing number');
     document.querySelector('.score').textContent = 20;
-    document.querySelector('.guess').textContent = '';
+    document.querySelector('.guess').textContent = " ";
     document.querySelector('.game-title').textContent = 'GUESS THE NUMBER';
     document.querySelector('.guessme').textContent = '?';
     document.querySelector('body').style.backgroundColor = 'lightsteelblue';
